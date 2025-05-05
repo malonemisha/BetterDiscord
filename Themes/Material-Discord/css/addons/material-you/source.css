@@ -9,10 +9,10 @@
           calc(var(--accent-lightness) * var(--lightness-modifier) * var(--ui-darkness-modifier))
       );
   --main-alt: hsl(
-             var(--accent-hue),
-             calc(var(--accent-saturation) * var(--saturation-modifier) * var(--saturation-factor)),
-             calc(var(--accent-lightness) * var(--lightness-modifier) * var(--ui-darkness-modifier) * 0.7)
-         );
+    270, /* фіолетовий тон (Hue) */
+    calc(var(--accent-saturation) * var(--saturation-modifier) * var(--saturation-factor)),
+    calc(var(--accent-lightness) * var(--lightness-modifier) * var(--ui-darkness-modifier) * 0.7)
+      );
   --accent-hsl--material-you:
           var(--accent-hue),
           calc(var(--accent-saturation) * var(--saturation-modifier) * 3 * var(--saturation-factor)),
